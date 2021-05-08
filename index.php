@@ -1,2 +1,2 @@
-header('Location: index.html');
+header('Location: intro.html');
 exit;
