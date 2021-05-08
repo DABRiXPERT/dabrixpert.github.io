@@ -1,2 +1,1 @@
-header('Location: intro.html');
-exit;
+<?php include_once("intro.html"); ?>
