@@ -1,3 +1,4 @@
+// DONATION
 var currentDate = new Date().toISOString();
 var times = 0;
 var donate = document.getElementById("donate");//button clicked
