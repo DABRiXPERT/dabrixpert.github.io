@@ -1,0 +1,26 @@
+body
+{
+    background-color: #282828;
+    font-family: "JetBrains Mono", Electrolize;
+}
+
+h1
+{
+    color: orange;
+}
+
+h2
+{
+    line-height: 16px;
+    color: orangered;
+}
+
+p
+{
+    color: white;
+}
+
+br
+{
+    line-height: 300px;
+}
