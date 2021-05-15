@@ -1,7 +1,7 @@
 // HOME WEBSITE
-var version = '1.1.0'
+var version = '1.2.0'
 var refreshDate = new Date().toISOString()
-var latest_update = "2021-05-08T10:08:50.698Z"
+var latest_update = "2021-05-15T12:02:01.613Z"
 console.log("CONSOLE FUNCTIONED PERFECTLY.")
 
 var ctrl_version = document.getElementById("version")
