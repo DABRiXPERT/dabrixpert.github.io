@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type="text/css">
+        <link rel="stylesheet" href="GlobalScheme.css" type="text/css">
+        <script src="Navigation.js"></script>
+        <title>DABRiXPERT Homepage</title>
+    </head>
+    <body>
+        <div class="global-scheme w3-sidebar w3-light-gray w3-bar-block" style="width: 10vw;">
+
+            <h4 class="w3-bar-item">Main</h4>
+                <div id="Homepage" class="sidebar-button w3-panel w3-border-light-gray w3-bar-item w3-button w3-hover-border-red w3-light-blue" onclick="toContent('Homepage','Homepage.html')">
+                    &emsp;Homepage
+                </div>
+                <div id="Log" class="sidebar-button w3-panel w3-leftbar w3-border-light-gray w3-bar-item w3-button w3-hover-border-red" onclick="toContent('Log','Log.html')">
+                    &emsp;Log
+                </div>
+
+            <h4 class="w3-bar-item">Navigate</h4>
+                <div class="sidebar-button w3-panel w3-leftbar w3-border-light-gray w3-bar-item w3-button w3-hover-border-red" onclick="window.open('https://www.facebook.com/zxcvburikunayoniop', '_blank')">
+                    &emsp;Facebook
+                </div>
+                <div class="sidebar-button w3-panel w3-leftbar w3-border-light-gray w3-bar-item w3-button w3-hover-border-red" onclick="window.open('https://www.twitter.com/buriku_nayoni', '_blank')">
+                    &emsp;X (Twitter)
+                </div>
+                <div class="sidebar-button w3-panel w3-leftbar w3-border-light-gray w3-bar-item w3-button w3-hover-border-red" onclick="window.open('https://github.com/DABRiXPERT', '_blank')">
+                    &emsp;Github
+                </div>
+
+            <h4 class="w3-bar-item">Misc.</h4>
+                <div id="Credits" class="sidebar-button w3-panel w3-leftbar w3-border-light-gray w3-bar-item w3-button w3-hover-border-red" onclick="toContent('Credits','Credits.html')">
+                    &emsp;Credits
+                </div>
+
+            <hr style="border-color: #000000; border-width:1px;">
+            <div class="w3-panel">
+                <p style="color: gray">Version 2.0.0<br><br>TEAM BRiXPERT,<br>2017 - 2023<br>Powered by W3.CSS</p>
+            </div>
+        </div>
+        <div style="margin-left:10%; height: 100%; ">
+            <iframe id="mainView" src="Homepage.html" style="height: 100vh; width: 100vw; border:none;"></iframe>
+        </div>
+    </body>
+</html>
